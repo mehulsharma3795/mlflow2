@@ -5,6 +5,6 @@ conda_env: mlflow2.yaml
 entry_points:
   main:
     parameters:
-      alpha: {type: float, default: 0.1}
+      alpha:
       l1_ratio: {type: float, default: 0.1}  
     command: "python train.py {alpha} {l1_ratio}"
