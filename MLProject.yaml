@@ -7,4 +7,4 @@ entry_points:
     parameters:
       alpha: {type: float, default: 0.1}
       l1_ratio: {type: float, default: 0.1}  
-    command: "python elasticnet1.py {alpha} {l1_ratio}"
+    command: "python train.py {alpha} {l1_ratio}"
